@@ -20,10 +20,14 @@ class ViewController: UIViewController {
     @IBAction func firstMessageButton(_ sender: UIButton) {
         print("First button was pressed!")
         messageLabel.text = "You Are Awesome!"
+        messageLabel.textColor = UIColor.blue
+        messageLabel.textAlignment = .left
     }
     @IBAction func secondMessageButton(_ sender: UIButton) {
         print("Second button was Pressed!")
         messageLabel.text = "You Are Great!"
+        messageLabel.textColor = .systemRed
+        messageLabel.textAlignment = .right
     }
     
 }
